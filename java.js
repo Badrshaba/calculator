@@ -44,17 +44,18 @@ function clean(){
     arr.pop()
     
     screen.innerHTML= arr.join('')
-    console.log(arr);
+    
 }
 cleer.addEventListener("click",clean)
 
 
 function calc(){
-    screen.innerHTML=eval(screen.innerHTML)
+    
+    screen.innerHTML===" "? null:screen.innerHTML=eval(screen.innerHTML)
 }
 
 
-eqwal.addEventListener("click", calc  )
+  eqwal.addEventListener("click", calc  )
 
 let mood = "light"
 
